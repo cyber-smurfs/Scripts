@@ -2,6 +2,9 @@
 # Nick Alderete & Jeremy Patton
 # Scan network for SSH and RDP connection 
 
+# To run in background:
+# Make executable (chmod +x connectscan.py) 
+# Run (./connectscan.py &) ## '&' lets scripts run continuously in background freeing up terminal
 
 
 import csv
