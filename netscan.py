@@ -2,6 +2,9 @@
 # Nick Alderete & Jeremy Patton
 # Automated network scan & Email notification
 
+# To run in background:
+# Make executable (chmod +x netscan.py) 
+# Run (./netscan.py &) ## '&' lets scripts run continuously in background freeing up termin
 
 
 import csv
