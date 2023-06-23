@@ -54,7 +54,7 @@ def send_email(filename):
     message['Subject'] = subject
 
     # Attach the file
-    with open(filename, 'rb') as attachment:
+    with open(filename, 'r') as attachment:
         part = MIMEBase('application', 'octet-stream')
         part.set_payload(attachment.read())
 
